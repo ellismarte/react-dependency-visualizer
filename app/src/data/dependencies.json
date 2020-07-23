@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "package.json"
+    },
+    {
+      "id": "public/manifest.json"
+    },
+    {
+      "id": "src/App.js"
+    },
+    {
+      "id": "src/App.test.js"
+    },
+    {
+      "id": "src/components/instances.js"
+    },
+    {
+      "id": "src/index.js"
+    },
+    {
+      "id": "src/serviceWorker.js"
+    },
+    {
+      "id": "src/setupTests.js"
+    },
+    {
+      "id": "src/components/instances.js"
+    },
+    {
+      "id": "src/App.js"
+    },
+    {
+      "id": "src/App.test.js"
+    },
+    {
+      "id": "src/serviceWorker.js"
+    }
+  ],
+  "links": [
+    {
+      "source": "src/components/instances.js",
+      "target": "src/App.js"
+    },
+    {
+      "source": "src/App.js",
+      "target": "src/App.test.js"
+    },
+    {
+      "source": "src/App.test.js",
+      "target": "src/App.test.js"
+    },
+    {
+      "source": "src/App.js",
+      "target": "src/index.js"
+    },
+    {
+      "source": "src/App.test.js",
+      "target": "src/index.js"
+    },
+    {
+      "source": "src/serviceWorker.js",
+      "target": "src/index.js"
+    }
+  ]
+}

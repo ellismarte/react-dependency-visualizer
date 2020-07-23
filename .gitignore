@@ -1,0 +1,3 @@
+node_modules
+./app/src/data/dependencies.json
+.DS_STORE

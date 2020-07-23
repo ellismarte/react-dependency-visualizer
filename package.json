@@ -1,0 +1,22 @@
+{
+  "name": "react-dependency-visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "visualizeReactDependencies": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "jsonfile": "^6.0.1",
+    "shelljs": "^0.8.4",
+    "yargs": "^15.4.1"
+  }
+}
